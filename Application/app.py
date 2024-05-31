@@ -16,7 +16,7 @@ if st.button('Detect'):
     st.dataframe(
         preds,
         column_config={
-        "FITS": "FITS",
+        "Files": "Files",
         "proba": st.column_config.NumberColumn( "QPP confidence"),
         "QPP": "QPP",
         'Figs': st.column_config.LineChartColumn( "Flare profiles", width="large",)
