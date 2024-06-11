@@ -33,6 +33,8 @@ TBD...
  -  Type the path of folder with QPP data. QPP must be in the .csv format. Each .csv file must contain the 'flux' column with light curve data
  -  Click "Detect" button
  -  After FCN made its predictions, click "Download data as CSV" to them
+
+
 ![](./Use-case/Use-case.gif)
 
 ## Contributing
