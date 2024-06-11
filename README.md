@@ -7,7 +7,7 @@ TBD...
 
 ## Table of Contents
 - [Prerequisites](#prerequisites)
-- [How to install and run the application](#installation)
+- [How to install and run the application](#how-to-install-and-run-the-application)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
