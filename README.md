@@ -31,7 +31,8 @@ TBD...
  -  Run the application: _streamlit run ./Application/app.py_
 **To use the application**:
  -  Open the application in your browser by the url _http://localhost:8501_ (it may differ) if it's not opened automatically
- -  Type the path 
+ -  Type the path
+![](./Use-case/Use-case.gif)
 
 ## Contributing
 
