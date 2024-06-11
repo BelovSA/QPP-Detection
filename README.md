@@ -26,12 +26,13 @@ TBD...
 ## Usage
 **To run the application:**
  -  Change your working directory to the root directory of the project: cd <QPP_Detection_folder>
- -  Create new Anaconda environment: _conda env create -f ./Environment/env.yml_
  -  Activate the environment created: _conda activate qpp_detection_
  -  Run the application: _streamlit run ./Application/app.py_
 **To use the application**:
  -  Open the application in your browser by the url _http://localhost:8501_ (it may differ) if it's not opened automatically
- -  Type the path
+ -  Type the path of folder with QPP data. QPP must be in the .csv format. Each .csv file must contain the 'flux' column with light curve data
+ -  Click "Detect" button
+ -  After FCN made its predictions, click "Download data as CSV" to them
 ![](./Use-case/Use-case.gif)
 
 ## Contributing
