@@ -7,7 +7,7 @@ from Model import make_predictions
 
 st.title("QPP detection")
 
-st.text_input("Type the path to your folder with .fits (or simply drag the folder)", key="path")
+st.text_input("Type the path to your folder with .csv (or simply drag the folder)", key="path")
 
 if st.button('Detect'):
     path = st.session_state.path
