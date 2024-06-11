@@ -34,6 +34,7 @@ def detrend(flare, window=0.5):
     else:
         y = decay
     return y
+    
         
 class QPPDataset(Dataset):
 
@@ -105,9 +106,6 @@ class QPPDataset(Dataset):
         
         return y_new
 
-
-
-        
 
 class QPPClassifier(pl.LightningModule):
 
@@ -218,6 +216,7 @@ def make_predictions(files_path, thres=0.5):
     figs = []
     for path in dataset.files:
         flare = dataset.read_flare_by_path(path)
+        flare = dataset.resample(flare)
         figs.append(flare)
 
     df = pd.DataFrame({'Files': dataset.files, 'proba': predictions})
