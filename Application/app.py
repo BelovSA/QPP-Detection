@@ -1,9 +1,12 @@
-import streamlit as st
+import os
 import numpy as np
 import pandas as pd
-import os
-
+import streamlit as st
 from Model import make_predictions 
+
+st.set_page_config(
+        page_title="QPP detection",
+)
 
 st.title("QPP detection")
 
