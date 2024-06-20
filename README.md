@@ -7,7 +7,7 @@ QPP-Detection is the project to detect Quasi Periodic Pulsations (QPP) in solar 
 
 The project consistst of two main parts:
 - Notebooks to generatate synthetic dataset and train the FCN (**Notebooks** folder)
-- [Streamlit](https://streamlit.io) browser application to used a pretrained FCN for the QPP detection task on custom data (**Application** folder)
+- [Streamlit](https://streamlit.io) browser application to use the FCN pretrained  on the [synthetic dataset]() for the QPP detection task on custom data (**Application** folder)
 
 
 ## Table of Contents
@@ -46,6 +46,7 @@ The project consistst of two main parts:
 ## Contributing
 
 ## Acknowledgements
+The work is supported by STFC Grant ST/X000915/1
 
 ## License
 This project is licensed under the Apache 2.0. License - see the [LICENSE.md](./LICENSE) file for details
