@@ -3,7 +3,7 @@ Neural network approach to find QPP in light curves of solar and stellar flares.
 
 ## Project description
 
-QPP-Detection is the project to detect Quasi Periodic Pulsations (QPP) in solar and stellar flares and a part of our [paper](). To detect QPPs, we used the Fully Convolutional Network (FCN) archtiecture proposed by [Wang et al. (2016)](https://ieeexplore.ieee.org/document/7966039/authors#authors).
+QPP-Detection is the project to detect Quasi Periodic Pulsations (QPP) in solar and stellar flares and a part of our [paper](). To detect QPPs, we used the Fully Convolutional Network (FCN) archtiecture proposed by [Wang et al. (2017)](https://ieeexplore.ieee.org/document/7966039/authors#authors).
 
 The project consistst of two main parts:
 - Notebooks to generatate synthetic dataset and train the FCN (**Notebooks** folder)
